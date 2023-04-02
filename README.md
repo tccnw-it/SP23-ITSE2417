@@ -1,4 +1,4 @@
-# FL22-ITSE2417
+# SP23-ITSE2417
 Final Project for ITSE-2417
 <hr/>
 Be sure take a look at the sequence of actions that you should take to complete this lab as described in the Final Project Assignment in Canvas.
