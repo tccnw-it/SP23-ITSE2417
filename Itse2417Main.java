@@ -48,7 +48,7 @@ public class Itse2417Main
         Arrays.asList(   
             new FinalProj(),          // Abiog 
             new FinalProj(),          // Avalos  
-            new EvannProj(),          // Bustamantes
+            new Bustamantes(),          // Bustamantes
             new FinalProj(),          // Gonzalez Mauricio
             new FinalProj(),          // Gutt
             new FinalProj(),          // James
