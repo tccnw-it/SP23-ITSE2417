@@ -1,5 +1,5 @@
-import java.util.Scanner;
-public class GonzalezMenu implements FinalProject
+//import java.util.Scanner;
+public class GonzalezMenu extends Itse2417Main implements FinalProject
 {
     public GonzalezMenu()
     {
@@ -8,10 +8,10 @@ public class GonzalezMenu implements FinalProject
 
     public void begin() 
     {
-        Scanner input = new Scanner(System.in);
+        //Scanner input = new myScan(System.in);
     
         System.out.print("Enter a year: ");
-        int year = input.nextInt();
+        int year = myScan.nextInt();
         int valz = year % 19;
         int valy = year / 100;
         int valx = year % 100;
@@ -26,6 +26,6 @@ public class GonzalezMenu implements FinalProject
         int month = (valt - valq + valp + 90) / 25;
         int day = (valt - valq + valp + month + 19) % 32;
         System.out.printf("In " + year +"," + " Easter fell on " + month+"/"+day+"/"+year);
-        input.close();
+        
     }       
 }
