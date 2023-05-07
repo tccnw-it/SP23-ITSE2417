@@ -49,7 +49,7 @@ public class Itse2417Main
             new FinalProj(),          // Abiog 
             new FinalProj(),          // Avalos  
             new FinalProj(),          // Bustamantes
-            new FinalProj(),          // Gonzalez Mauricio
+            new GonzalezMenu(),          // Gonzalez Mauricio
             new FinalProj(),          // Gutt
             new FinalProj(),          // James
             new FinalProj(),          // Johnson
