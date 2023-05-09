@@ -51,7 +51,7 @@ public class Itse2417Main
             new FinalProj(),          // Bustamantes
             new FinalProj(),          // Gonzalez Mauricio
             new FinalProj(),          // Gutt
-            new FinalProj(),          // James
+            new James(),          // James
             new FinalProj(),          // Johnson
             new FinalProj(),          // Lupinacci
             new FinalProj(),          // Moreno
