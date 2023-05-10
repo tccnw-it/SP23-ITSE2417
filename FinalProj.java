@@ -3,11 +3,6 @@
 
 public class FinalProj implements FinalProject
 {
-    public FinalProj()
-    {
-
-    }
-
     public void begin()
     {
         System.out.println();
@@ -16,9 +11,11 @@ public class FinalProj implements FinalProject
 
         try
         {
+            // Sleep for 2 seconds
             java.util.concurrent.TimeUnit.SECONDS.sleep(2);  
         }
-        catch(InterruptedException e)
-        {}
+        catch(InterruptedException e) {
+            System.err.println("Sleep interrupted: " + e.getMessage());
+        }
     }
 }
